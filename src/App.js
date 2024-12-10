@@ -1,23 +1,22 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import Hero from './components/Hero';
-import Footer from './components/Footer';
+import Home from './pages/Home';  
 import Login from './pages/Login'; // Importa a página de login
+import Header from './components/Header'; // Cabeçalho global
 import './styles.css';
+import Signup from './pages/Signup';
 
 const App = () => (
   <Router>
     <div className="app-container">
-      <Header />
-      <Nav />
-      <Hero />
+      {/* Cabeçalho na aplicação */}
+
       <Routes>
         {/* Define as rotas */}
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
-      <Footer />
     </div>
   </Router>
 );
