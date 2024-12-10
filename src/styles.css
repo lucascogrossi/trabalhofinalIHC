@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header img {
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+  }
+  
+  .nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .hero {
+    background-image: url(../src/images/home-background.png);
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    height: 100vh; /* Ocupa 100% da altura da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza o conteúdo dentro da hero */
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+  }
+  
+  .hero h2 {
+    margin: 0;
+  }
+  
+  .hero button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 100px;
+    cursor: pointer;
+  }
+
+  
+  
+  .footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto; /* Faz o rodapé ficar no final da página */
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 0;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
