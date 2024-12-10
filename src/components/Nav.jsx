@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Nav = () => (
   <div className="nav">
-    <a href="#shop">Shop</a>
-    <a href="#impact">Impact</a>
-    <a href="#shopping">Shopping</a>
-    <a href="#cart">Cart</a>
-    <a href="#signup">Sign Up</a>
-    <a href="#login">Log in</a>
+    <Link to="/shop">Shop</Link>
+    <Link to="/impact">Impact</Link>
+    <Link to="/shopping">Shopping</Link>
+    <Link to="/cart">Cart</Link>
+    <Link to="/signup">Sign Up</Link>
+    <Link to="/login">Log in</Link>
   </div>
 );
 
